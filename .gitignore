@@ -2,4 +2,6 @@
 *
 !.gitignore
 !README.md
+!profile/
+!profile/README.md
 .claude/
