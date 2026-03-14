@@ -1,0 +1,5 @@
+# Ignore everything except the org profile README
+*
+!.gitignore
+!README.md
+.claude/
