@@ -2,16 +2,7 @@
 
 Fink is a functional programming language designed to be ergonomic, consistent, and practical — applying FP principles without being dogmatic.
 
-```fink
-process = fn items:
-  items
-  | filter is_valid
-  | map fn item:
-      match parse item:
-        Ok value: value * 2
-        Err e: log 'skipping ${item}: ${e}'
-  | [..?]
-```
+<img src="example.svg" alt="Fink code example">
 
 ## Key characteristics
 
