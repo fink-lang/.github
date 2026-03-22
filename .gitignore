@@ -1,6 +1,5 @@
-# Ignore everything except the org profile README
-*
-!.gitignore
-!profile/
-!profile/README.md
-.claude/
+/.claude/settings.local.json
+/.claude.local/
+/.claude/
+.DS_Store
+/.vscode/
